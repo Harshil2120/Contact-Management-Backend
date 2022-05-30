@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.harshil.contact_system.model.Contact;
 import com.harshil.contact_system.service.ContactService;
 
-@CrossOrigin(value="http://localhost:3000")
+@CrossOrigin(value="https://contact-management-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/v1/")
 public class ContactController {
